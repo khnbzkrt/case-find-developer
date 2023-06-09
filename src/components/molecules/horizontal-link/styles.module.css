@@ -1,0 +1,14 @@
+.horizontalLinkContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.horizontalLinkContainer li {
+  padding: 0px 12px;
+  border-right: 1px solid #ddd;
+}
+
+.horizontalLinkContainer li:last-child {
+  border-right: none;
+}

@@ -1,0 +1,28 @@
+.serviceContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.serviceLeftContent {
+  width: 100%;
+  background-image: url('../../../../public/images/page1/ara.webp');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+}
+
+.serviceRightContent {
+  width: 100%;
+  background-image: url('../../../../public/images/page1/veren.webp');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+}

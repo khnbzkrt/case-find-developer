@@ -1,0 +1,8 @@
+.suggestionListContainer {
+  line-height: 1.7;
+}
+
+.suggestionListContainer ul li {
+  list-style: none;
+  font-weight: 500;
+}

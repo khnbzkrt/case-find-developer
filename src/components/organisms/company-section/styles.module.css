@@ -1,0 +1,13 @@
+.companyLogoContainer {
+  display: grid;
+  background-color: var(--company-section-bg);
+  grid-template-columns: repeat(7, 1fr);
+  padding: 30px 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.companyLogoContainer img {
+  width: auto;
+  height: auto;
+}

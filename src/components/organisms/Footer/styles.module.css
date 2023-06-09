@@ -1,0 +1,5 @@
+.footerLinksContainer {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr auto;
+  justify-items: center;
+}

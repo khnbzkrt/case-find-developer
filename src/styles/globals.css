@@ -1,8 +1,10 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
 :root {
   --white: #fff;
   --color: #666768;
+  --color-blue: #6b7998;
+  --slider-navigation-active: #797674;
+  --slider-navigation-disabled: #bfbcb9;
+  --company-section-bg: #f7f6f6;
 
   font-weight: 400;
 }
