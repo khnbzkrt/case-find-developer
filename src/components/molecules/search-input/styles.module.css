@@ -1,0 +1,43 @@
+.searchInputContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchInputGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.searchInput {
+  width: 554px;
+  height: 56px;
+  padding: 16px 16px 16px 10%;
+  border-radius: 28px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.searchInput::placeholder {
+  font-size: 18px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.detailSearch {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+  white-space: nowrap;
+  margin-top: 10px;
+  width: fit-content;
+}

@@ -1,9 +1,5 @@
-import { PrimaryLinkButton } from '@/components';
+import { HomePageTemplate } from '@/components';
 
 export default function Home() {
-  return (
-    <div>
-      <PrimaryLinkButton href={'/'} text={'Kayıt Ol'} />
-    </div>
-  );
+  return <HomePageTemplate />;
 }

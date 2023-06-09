@@ -1,0 +1,18 @@
+.introSloganContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImage {
+  width: fit-content;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.headerTextImage {
+  width: fit-content;
+  object-fit: contain;
+  margin-bottom: 48px;
+}

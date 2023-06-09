@@ -1,0 +1,7 @@
+.introContainer {
+  height: 470px;
+  background-image: url('../../../../public/images/page1/bg_2.webp');
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
