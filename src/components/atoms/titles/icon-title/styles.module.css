@@ -1,0 +1,20 @@
+.iconTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconTitleText {
+  font-size: 18px;
+}
+
+.iconTitleSmallContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconTitleSmallText {
+  font-size: 12px;
+  text-decoration: underline;
+}

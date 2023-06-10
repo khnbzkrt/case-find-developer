@@ -1,0 +1,10 @@
+.navbarProfileContainer {
+  display: flex;
+  color: #fff;
+}
+
+.navbarProfileImage {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+}

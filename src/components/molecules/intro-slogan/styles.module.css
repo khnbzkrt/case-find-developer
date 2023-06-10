@@ -16,3 +16,15 @@
   object-fit: contain;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 768px) {
+  .logoImage {
+    width: 80%;
+    margin-bottom: 0px;
+  }
+
+  .headerTextImage {
+    width: 80%;
+    margin-bottom: 24px;
+  }
+}

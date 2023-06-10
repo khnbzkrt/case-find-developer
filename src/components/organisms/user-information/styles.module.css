@@ -1,0 +1,45 @@
+.userInformationContainer {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-color-gray);
+}
+
+.userInformationName {
+  font-size: 24px;
+  color: var(--color-blue);
+}
+
+.userInformationJob {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.userInformationLocation {
+  display: block;
+  font-size: 18px;
+  color: var(--color-gray);
+  margin-bottom: 10px;
+}
+
+.userInformationEmail {
+  display: block;
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.userInformationPhone {
+  display: block;
+  font-size: 18px;
+  color: var(--color-gray);
+  margin-bottom: 18px;
+}
+
+.userInformationEditLink {
+  font-size: 14px;
+  color: var(--color-blue);
+  text-decoration: underline;
+  display: block;
+  margin-top: 16px;
+}

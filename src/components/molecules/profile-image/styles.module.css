@@ -1,0 +1,23 @@
+.profileImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 260px;
+  border-radius: 12px;
+  border: solid 1px var(--border-color-blue);
+  background-color: #eff1f6;
+  position: relative;
+}
+
+.profileIconCorner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profileImageEditIcon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}

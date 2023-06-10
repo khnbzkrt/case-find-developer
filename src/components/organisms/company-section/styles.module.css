@@ -11,3 +11,10 @@
   width: auto;
   height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .companyLogoContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

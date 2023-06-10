@@ -21,6 +21,17 @@
   margin: 0;
 }
 
+.searchInputBordered {
+  width: 55vw;
+  height: 56px;
+  padding: 16px 16px 16px 10%;
+  border: 1px solid var(--border-color-blue);
+  border-radius: 28px;
+  background-color: #fff;
+  outline: none;
+  margin: 0;
+}
+
 .searchInput::placeholder {
   font-size: 18px;
 }
@@ -40,4 +51,20 @@
   white-space: nowrap;
   margin-top: 10px;
   width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .searchInput {
+    width: 90vw;
+  }
+
+  .searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+  }
+
+  .searchInputGroup {
+    flex-direction: column;
+  }
 }

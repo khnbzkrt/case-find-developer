@@ -7,3 +7,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+@media screen and (max-width: 768px) {
+  .suggestionContainer {
+    padding: 20px 0px;
+  }
+
+  .suggestionListContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}

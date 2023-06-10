@@ -6,9 +6,22 @@
 
 .horizontalLinkContainer li {
   padding: 0px 12px;
+  font-size: 14px;
   border-right: 1px solid #ddd;
 }
 
 .horizontalLinkContainer li:last-child {
   border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+  .horizontalLinkContainer {
+    flex-direction: column;
+  }
+
+  .horizontalLinkContainer li {
+    padding: 0px 12px;
+    border-right: none;
+    padding: 0;
+  }
 }

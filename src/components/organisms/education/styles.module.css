@@ -1,0 +1,23 @@
+.educationContainer {
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.educationUniversity {
+  font-size: 24px;
+  color: var(--color-blue);
+  margin-bottom: 10px;
+}
+
+.educationDegree {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.educationSection {
+  color: var(--color-gray);
+}
+
+.educationDate {
+  color: var(--color-gray);
+}

@@ -1,3 +1,42 @@
 .headerContainer {
   padding: 38px 0px;
 }
+
+.socialMediaHeaderContainer {
+  background-color: var(--border-color-blue);
+  position: relative;
+  height: 100px;
+  align-items: center;
+}
+
+.socialMediaHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialMediaHeaderBgLeft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 178px;
+  height: 100px;
+}
+
+.socialMediaHeaderBgCenter {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 82px;
+  height: 70px;
+}
+
+.socialMediaHeaderBgRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}

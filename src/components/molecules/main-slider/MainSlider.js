@@ -16,11 +16,16 @@ export default function MainSlider({ datas }) {
       <Swiper
         modules={[Navigation]}
         spaceBetween={10}
-        slidesPerView={6}
+        slidesPerView={1}
         navigation={{
           prevEl: '.prev',
           nextEl: '.next',
           disabledClass: styles.navigationDisabled,
+        }}
+        breakpoints={{
+          768: {
+            slidesPerView: 6,
+          },
         }}
         className={styles.slider}
       >

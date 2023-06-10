@@ -37,3 +37,15 @@
   right: 0;
   top: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .popularSearchContainer {
+    height: 120px;
+  }
+
+  .popularSearchContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

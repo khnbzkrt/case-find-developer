@@ -1,0 +1,29 @@
+.experienceContainer {
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.experienceTitle {
+  font-size: 24px;
+  color: var(--color-blue);
+}
+
+.experienceCompany {
+  font-size: 18px;
+  color: var(--color-blue);
+}
+
+.experienceDateText {
+  display: block;
+  color: var(--color-gray);
+}
+
+.experienceLocation {
+  display: block;
+  color: var(--color-gray);
+}
+
+.experienceContent {
+  margin: 10px 0px;
+  color: var(--color-gray);
+}
