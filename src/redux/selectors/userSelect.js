@@ -1,5 +1,11 @@
 import { createSelector } from 'reselect';
 
-const getUserData = (state) => state.user;
+const selectUsers = (state) => state.users;
+const selectUserId = (_, props) => props.userId;
 
-export const userSelect = createSelector([getUserData], (user) => user);
+export const selectUserById = createSelector(
+  [selectUsers, selectUserId],
+  (users, userId) => users.find((user) => user.id == userId)
+);
+
+export const selectAllUsers = createSelector([selectUsers], (users) => users);

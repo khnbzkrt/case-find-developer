@@ -3,7 +3,7 @@ import '@/styles/reset.css';
 import '@/styles/globals.css';
 
 import { Provider } from 'react-redux';
-import { appStore } from '@/redux/store';
+import { userStore } from '@/redux/store';
 import { nunito } from '../../../public/fonts';
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function SocialMediaLayout({ children }) {
   return (
     <html lang="en" className={nunito.className}>
       <body>
-        <Provider store={appStore}>{children}</Provider>
+        <Provider store={userStore}>{children}</Provider>
       </body>
     </html>
   );

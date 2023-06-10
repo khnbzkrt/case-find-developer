@@ -1,19 +1,26 @@
-import { GET_USER } from '../constants';
+import { GET_ALL_USERS, GET_USER } from '../constants';
 
 const initialState = {
   user: null,
 };
 
-export const appReducer = (state = initialState, action) => {
+export const userReducer = (state = initialState, action) => {
   switch (action.type) {
-    case GET_USER: {
+    case GET_ALL_USERS: {
+      console.log(action.payload);
       return {
         ...state,
-        user: {
+        users: [...action.payload],
+      };
+    }
+    case GET_USER:
+      return {
+        ...state,
+        currentUser: {
           ...action.payload,
         },
       };
-    }
+
     default:
       return state;
   }

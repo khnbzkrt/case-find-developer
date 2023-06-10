@@ -31,3 +31,18 @@
 #react-select-2-placeholder {
   color: #fff;
 }
+
+.userList {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid var(--border-color-gray);
+}
+
+.userList:hover {
+  background-color: var(--border-color-blue);
+  color: var(--white);
+}
+
+.userList > a {
+  display: block;
+}
