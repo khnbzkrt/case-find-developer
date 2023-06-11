@@ -1,16 +1,18 @@
 'use client';
+import { useLayoutEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { selectUserById } from '@/redux/selectors/userSelect';
 import ProfileImage from '@/components/molecules/profile-image/ProfileImage';
 import UserInformation from '../user-information/UserInformation';
-import { useParams } from 'next/navigation';
-import { selectUserById } from '@/redux/selectors/userSelect';
-
-import styles from './styles.module.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { useLayoutEffect, useState } from 'react';
 import { getAllUsers } from '@/redux/actions/user-actions';
 import WebSite from '../web-site/WebSite';
 import { socialMediaLinks } from '../web-site/data';
 import ObjectList from '../object-list/ObjectList';
+
+import styles from './styles.module.css';
+
 import { applyItems, documentItems, savedCallItems } from './data';
 
 export default function ProfileSidebar() {

@@ -1,4 +1,5 @@
 import NavbarProfile from '../navbar-profile/NavbarProfile';
+
 import styles from './styles.module.css';
 
 export default function SocialMediaNavbar() {

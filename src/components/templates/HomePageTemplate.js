@@ -10,7 +10,7 @@ import Footer from '../organisms/footer/Footer';
 
 export default function HomePageTemplate() {
   return (
-    <main>
+    <main className="rootLayout">
       <Intro />
       <PopularSearch />
       <JobPost />

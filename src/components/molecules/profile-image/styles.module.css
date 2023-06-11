@@ -8,6 +8,7 @@
   border: solid 1px var(--border-color-blue);
   background-color: #eff1f6;
   position: relative;
+  z-index: 1;
 }
 
 .profileIconCorner {
@@ -20,4 +21,10 @@
   position: absolute;
   top: 16px;
   left: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .profileImageContainer {
+    margin: 0 auto;
+  }
 }

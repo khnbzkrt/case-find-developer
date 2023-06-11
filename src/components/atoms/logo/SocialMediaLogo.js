@@ -1,7 +1,8 @@
 import Image from 'next/image';
-import Logo from '../../../../public/images/page1/logo.webp';
 
 import styles from './styles.module.css';
+
+import Logo from '../../../../public/images/page1/logo.webp';
 
 export default function SocialMediaLogo() {
   return (

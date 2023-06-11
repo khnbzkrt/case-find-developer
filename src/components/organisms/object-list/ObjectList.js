@@ -1,6 +1,8 @@
-import styles from './styles.module.css';
 import { useCallback, useState } from 'react';
 import Link from 'next/link';
+
+import styles from './styles.module.css';
+
 import IconTextLabel from '@/components/molecules/icon-text-label/IconTextLabel';
 
 export default function ObjectList({ title, objectItems, linkTitle, href }) {

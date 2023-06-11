@@ -1,10 +1,10 @@
+import Image from 'next/image';
+
 import styles from './styles.module.css';
 
 import ProfileIcon from '../../../../public/images/page2/group_3.webp';
 import ProfileIconCorner from '../../../../public/images/page2/group_39.webp';
 import EditIcon from '../../../../public/images/page2/icon_filled_edit.webp';
-
-import Image from 'next/image';
 
 export default function ProfileImage() {
   return (

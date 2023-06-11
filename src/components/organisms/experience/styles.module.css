@@ -6,24 +6,29 @@
 .experienceTitle {
   font-size: 24px;
   color: var(--color-blue);
+  font-weight: 600;
 }
 
 .experienceCompany {
   font-size: 18px;
   color: var(--color-blue);
+  font-weight: 600;
 }
 
 .experienceDateText {
   display: block;
   color: var(--color-gray);
+  font-weight: 500;
 }
 
 .experienceLocation {
   display: block;
   color: var(--color-gray);
+  font-weight: 500;
 }
 
 .experienceContent {
   margin: 10px 0px;
   color: var(--color-gray);
+  font-weight: 500;
 }

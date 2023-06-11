@@ -14,7 +14,7 @@ export default function SocialMediaList() {
   }, []);
 
   return (
-    <div>
+    <div className="socialMediaLayout">
       {users?.map((user) => (
         <ul key={user.id}>
           <li className={'userList'}>

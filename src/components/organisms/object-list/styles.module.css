@@ -9,6 +9,8 @@
 .objectListTitle {
   font-size: 18px;
   color: var(--color-blue);
+  font-weight: 600;
+
 }
 
 .objectListAddButton {

@@ -4,7 +4,6 @@ import '@/styles/globals.css';
 
 import { Provider } from 'react-redux';
 import { userStore } from '@/redux/store';
-import { nunito } from '../../../public/fonts';
 
 export const metadata = {
   title: 'Find Developer',
@@ -18,7 +17,7 @@ export const metadata = {
 
 export default function SocialMediaLayout({ children }) {
   return (
-    <html lang="en" className={nunito.className}>
+    <html lang="en">
       <body>
         <Provider store={userStore}>{children}</Provider>
       </body>

@@ -1,6 +1,5 @@
 .userInformationContainer {
   margin-top: 14px;
-  font-weight: 500;
   padding-bottom: 30px;
   border-bottom: 1px solid var(--border-color-gray);
 }
@@ -8,11 +7,13 @@
 .userInformationName {
   font-size: 24px;
   color: var(--color-blue);
+  font-weight: 600;
 }
 
 .userInformationJob {
   font-size: 18px;
   color: var(--color-gray);
+  font-weight: 600;
 }
 
 .userInformationLocation {
@@ -20,6 +21,7 @@
   font-size: 18px;
   color: var(--color-gray);
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .userInformationEmail {
@@ -41,4 +43,5 @@
   text-decoration: underline;
   display: block;
   margin-top: 16px;
+  font-weight: 600;
 }

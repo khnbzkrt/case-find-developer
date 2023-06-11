@@ -1,40 +1,39 @@
 'use client';
-import Select from 'react-select';
-
-import styles from './styles.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import styles from './styles.module.css';
+
 import ProfileImage from '../../../../public/images/page2/profile.jpeg';
+import { Dropdown } from '@/components/atoms/dropdown/Dropdown';
 
-const options = [
-  { label: <Link href={'/'}>Profil</Link> },
-  { label: <Link href={'/'}>Çıkış</Link> },
+const menuItems = [
+  {
+    id: 1,
+    item: (
+      <Link href={'/'} style={{ display: 'block' }}>
+        Profil
+      </Link>
+    ),
+  },
+  {
+    id: 1,
+    item: (
+      <Link href={'/'} style={{ display: 'block' }}>
+        Çıkış
+      </Link>
+    ),
+  },
 ];
-
-const colourStyles = {
-  control: (styles) => ({
-    ...styles,
-    backgroundColor: 'transparent',
-    border: 'none',
-    color: '#ffffff!important',
-  }),
-  option: (styles) => ({
-    ...styles,
-    color: 'black',
-  }),
-  input: (styles) => ({ ...styles, color: '#ffffff' }),
-  singleValue: (styles) => ({ ...styles, color: '#ffffff' }),
-};
 
 export default function NavbarProfile() {
   return (
     <div className={styles.navbarProfileContainer}>
-      <div>
-        <Select
-          options={options}
-          placeholder="Eray Karakullukçu"
-          styles={colourStyles}
+      <div className={styles.navbarProfileDropdown}>
+        <Dropdown
+          menuItems={menuItems}
+          defaultValue={menuItems[0]}
+          label={'Hakan Angın'}
         />
         <span>findtalent’de Kurucu</span>
       </div>

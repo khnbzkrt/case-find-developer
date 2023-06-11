@@ -1,4 +1,5 @@
 import { SectionTitle, SuggestionList } from '@/components';
+
 import {
   popularCategories,
   popularCompanyAdvert,

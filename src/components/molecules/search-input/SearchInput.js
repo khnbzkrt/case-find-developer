@@ -1,11 +1,12 @@
+import Link from 'next/link';
 import Image from 'next/image';
+
 import SearchButton from '@/components/atoms/buttons/search-button/SearchButton';
 
 import styles from './styles.module.css';
 
 import SearchIcon from '../../../../public/images/page1/icon_filled_search.webp';
 import SearchButtonText from '../../../../public/images/page1/group_6.webp';
-import Link from 'next/link';
 
 export default function SearchInput({ placeholder, border = false }) {
   return (

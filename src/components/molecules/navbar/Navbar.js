@@ -1,5 +1,6 @@
-import PrimaryLinkButton from '@/components/atoms/buttons/primary-link-button/PrimaryLinkButton';
 import styles from './styles.module.css';
+
+import PrimaryLinkButton from '@/components/atoms/buttons/primary-link-button/PrimaryLinkButton';
 
 export default function Navbar() {
   return (

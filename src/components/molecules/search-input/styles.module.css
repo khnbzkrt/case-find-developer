@@ -24,7 +24,7 @@
 .searchInputBordered {
   width: 55vw;
   height: 56px;
-  padding: 16px 16px 16px 10%;
+  padding: 16px 16px 16px 6%;
   border: 1px solid var(--border-color-blue);
   border-radius: 28px;
   background-color: #fff;
@@ -56,6 +56,11 @@
 @media screen and (max-width: 768px) {
   .searchInput {
     width: 90vw;
+  }
+
+  .searchInputBordered {
+    width: 90vw;
+    padding: 16px 16px 16px 12%;
   }
 
   .searchIcon {

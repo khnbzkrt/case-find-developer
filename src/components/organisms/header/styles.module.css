@@ -22,6 +22,7 @@
   bottom: 0;
   width: 178px;
   height: 100px;
+  z-index: 0;
 }
 
 .socialMediaHeaderBgCenter {
@@ -30,6 +31,7 @@
   top: 0;
   width: 82px;
   height: 70px;
+  z-index: 0;
 }
 
 .socialMediaHeaderBgRight {
@@ -39,4 +41,11 @@
   bottom: 0;
   width: 100px;
   height: 100px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .socialMediaHeader {
+    flex-direction: column;
+  }
 }

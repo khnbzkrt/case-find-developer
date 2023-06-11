@@ -9,6 +9,7 @@
 .webSiteTitle {
   font-size: 18px;
   color: var(--color-blue);
+  font-weight: 600;
 }
 
 .webSiteIcons {
@@ -20,4 +21,5 @@
   font-size: 14px;
   color: var(--color-blue);
   text-decoration: underline;
+  font-weight: 600;
 }

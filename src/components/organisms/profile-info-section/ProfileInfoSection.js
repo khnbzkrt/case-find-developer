@@ -4,8 +4,10 @@ import Experience from '../experience/Experience';
 import ProfileSidebar from '../profile-sidebar/ProfileSidebar';
 
 import styles from './styles.module.css';
+
 import SectionTitle from '@/components/atoms/titles/section-title/SectionTitle';
 import IconTitle from '@/components/atoms/titles/icon-title/IconTitle';
+
 import {
   experiences,
   abilities,

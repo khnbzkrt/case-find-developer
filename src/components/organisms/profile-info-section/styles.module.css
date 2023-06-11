@@ -7,7 +7,6 @@
 
 .profileDescriptonText {
   padding: 14px 0px;
-  font-weight: 500;
 }
 
 .profileInfoAbilities {
@@ -16,4 +15,11 @@
   padding: 14px 0px;
   gap: 16px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .profileInfoSectionContainer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import SocialMediaNavbar from '@/components/molecules/navbar/SocialMediaNavbar';
 import SocialMediaLogo from '@/components/atoms/logo/SocialMediaLogo';
 
@@ -6,7 +8,6 @@ import styles from './styles.module.css';
 import HeaderLeft from '../../../../public/images/page2/group_27_2.webp';
 import HeaderCenter from '../../../../public/images/page2/group_20_2.webp';
 import HeaderRight from '../../../../public/images/page2/group_22_2.webp';
-import Image from 'next/image';
 
 export default function SocialMediaHeader() {
   return (
