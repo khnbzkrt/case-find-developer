@@ -1,4 +1,4 @@
-import SearchInput from '@/components/molecules/search-input/SearchInput';
+import { SearchInput } from '@/components';
 
 import styles from './styles.module.css';
 

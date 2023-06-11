@@ -1,11 +1,13 @@
 'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+
+import { Dropdown } from '@/components';
 
 import styles from './styles.module.css';
 
 import ProfileImage from '../../../../public/images/page2/profile.jpeg';
-import { Dropdown } from '@/components/atoms/dropdown/Dropdown';
 
 const menuItems = [
   {
@@ -17,7 +19,7 @@ const menuItems = [
     ),
   },
   {
-    id: 1,
+    id: 2,
     item: (
       <Link href={'/'} style={{ display: 'block' }}>
         Çıkış

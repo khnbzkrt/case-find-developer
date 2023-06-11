@@ -8,9 +8,9 @@
 
 .footerLinksContainer {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto 100px;
   grid-template-rows: max-content;
-  justify-items: center;
+  justify-items: stretch;
   align-items: center;
 }
 

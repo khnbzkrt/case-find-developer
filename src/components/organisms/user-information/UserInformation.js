@@ -1,10 +1,11 @@
-import IconTitleSmall from '@/components/atoms/titles/icon-title/IconTitleSmall';
 import Image from 'next/image';
+import Link from 'next/link';
 
-import DownloadIcon from '../../../../public/images/page2/shape_2.webp';
+import { IconTitleSmall } from '@/components';
 
 import styles from './styles.module.css';
-import Link from 'next/link';
+
+import DownloadIcon from '../../../../public/images/page2/shape_2.webp';
 
 export default function UserInformation({ name, job, location, email, phone }) {
   return (

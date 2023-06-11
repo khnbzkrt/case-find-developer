@@ -1,5 +1,5 @@
-import SocialMediaTempalate from '@/components/templates/SocialMediaTemplate';
+import { SocialMediaTemplate } from '@/components';
 
 export default function SocialMedia() {
-  return <SocialMediaTempalate />;
+  return <SocialMediaTemplate />;
 }

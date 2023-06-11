@@ -1,9 +1,11 @@
+'use client';
+
 import { useCallback, useState } from 'react';
 import Link from 'next/link';
 
-import styles from './styles.module.css';
+import { IconTextLabel } from '@/components';
 
-import IconTextLabel from '@/components/molecules/icon-text-label/IconTextLabel';
+import styles from './styles.module.css';
 
 export default function ObjectList({ title, objectItems, linkTitle, href }) {
   const [items, setItems] = useState(objectItems);

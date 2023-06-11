@@ -1,5 +1,4 @@
-import SectionTitle from '@/components/atoms/titles/section-title/SectionTitle';
-import FilterLinkButton from '@/components/atoms/buttons/filter-link-button/FilterLinkButton';
+import { SectionTitle, FilterLinkButton } from '@/components';
 
 import styles from './styles.module.css';
 

@@ -1,9 +1,11 @@
 'use client';
-import { getAllUsers } from '@/redux/actions/user-actions';
-import { selectAllUsers } from '@/redux/selectors/userSelect';
-import Link from 'next/link';
+
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import Link from 'next/link';
+
+import { getAllUsers } from '@/redux/actions/user-actions';
+import { selectAllUsers } from '@/redux/selectors/userSelect';
 
 export default function SocialMediaList() {
   const dispatch = useDispatch();
@@ -15,13 +17,13 @@ export default function SocialMediaList() {
 
   return (
     <div className="socialMediaLayout">
-      {users?.map((user) => (
-        <ul key={user.id}>
-          <li className={'userList'}>
+      <ul>
+        {users?.map((user) => (
+          <li className={'userList'} key={user.id}>
             <Link href={`/social-media/${user.id}`}>{user.name}</Link>
           </li>
-        </ul>
-      ))}
+        ))}
+      </ul>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import MainSlider from '@/components/molecules/main-slider/MainSlider';
+import { MainSlider } from '@/components';
 
 import styles from './styles.module.css';
 

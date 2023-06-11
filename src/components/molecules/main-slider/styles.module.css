@@ -55,12 +55,17 @@
 .sliderContentTitle {
   font-size: 20px;
   color: var(--color);
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
 }
 
 .sliderContentCompany {
   font-size: 16px;
   color: var(--color-gray);
-  width: 200px;
+  width: 100px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

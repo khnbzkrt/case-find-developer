@@ -1,7 +1,9 @@
-import Footer from '../organisms/footer/Footer';
-import SocialMediaHeader from '../organisms/header/SocialMediaHeader';
-import ProfileInfoSection from '../organisms/profile-info-section/ProfileInfoSection';
-import SearchBar from '../organisms/search-bar/SearchBar';
+import {
+  Footer,
+  SocialMediaHeader,
+  ProfileInfoSection,
+  SearchBar,
+} from '@/components';
 
 export default function SocialMediaTempalate() {
   return (

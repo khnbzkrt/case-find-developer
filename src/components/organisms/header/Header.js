@@ -1,4 +1,4 @@
-import Navbar from '@/components/molecules/navbar/Navbar';
+import { Navbar } from '@/components';
 
 import styles from './styles.module.css';
 

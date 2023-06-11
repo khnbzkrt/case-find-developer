@@ -1,8 +1,8 @@
 'use client';
+
 import Image from 'next/image';
 
-import { Dropdown } from '@/components/atoms/dropdown/Dropdown';
-import HorizontalLink from '@/components/molecules/horizontal-link/HorizontalLink';
+import { Dropdown, HorizontalLink } from '@/components';
 
 import styles from './styles.module.css';
 
@@ -63,7 +63,11 @@ export default function Footer({ isDefault = false }) {
         <span>®2020 Finddeveloper.net</span>
         <HorizontalLink links={contracts} />
         <HorizontalLink links={siteLinks} />
-        <Dropdown menuItems={options} defaultValue={options[0]} />
+        <Dropdown
+          menuItems={options}
+          defaultValue={options[0]}
+          top={isDefault}
+        />
       </div>
       {!isDefault && (
         <div className={styles.footerDescriptionContainer}>

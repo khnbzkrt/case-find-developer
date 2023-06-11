@@ -1,12 +1,13 @@
-import Certificate from '../certificate/Certificate';
-import Education from '../education/Education';
-import Experience from '../experience/Experience';
-import ProfileSidebar from '../profile-sidebar/ProfileSidebar';
+import {
+  Certificate,
+  Education,
+  Experience,
+  ProfileSidebar,
+  SectionTitle,
+  IconTitle,
+} from '@/components';
 
 import styles from './styles.module.css';
-
-import SectionTitle from '@/components/atoms/titles/section-title/SectionTitle';
-import IconTitle from '@/components/atoms/titles/icon-title/IconTitle';
 
 import {
   experiences,
@@ -22,13 +23,14 @@ export default function ProfileInfoSection() {
       <div className={styles.profileInfoSectionContainer}>
         <ProfileSidebar />
         <article>
-          <SectionTitle title={'Profil'} fontSize={32} />
+          <SectionTitle title={'Profil'} fontSize={32} paddingBottom />
           <SectionTitle
             title={'Profesyonel Bakış'}
             href={'/'}
             linkText={'Düzenle'}
             border
             color="var(--border-color-blue)"
+            paddingBottom
           />
           <p className={styles.profileDescriptonText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,6 +45,7 @@ export default function ProfileInfoSection() {
             href={'/'}
             linkText={'Düzenle'}
             border
+            paddingBottom
           />
           {experiences.map((experience) => (
             <Experience
@@ -60,6 +63,7 @@ export default function ProfileInfoSection() {
             href={'/'}
             linkText={'Düzenle'}
             border
+            paddingBottom
           />
 
           {educations.map((education) => (
@@ -77,6 +81,7 @@ export default function ProfileInfoSection() {
             href={'/'}
             linkText={'Düzenle'}
             border
+            paddingBottom
           />
           {certificates.map((certificate) => (
             <Certificate
@@ -92,6 +97,7 @@ export default function ProfileInfoSection() {
             href={'/'}
             linkText={'Düzenle'}
             border
+            paddingBottom
           />
           <div className={styles.profileInfoAbilities}>
             {abilities.map((ability) => (
@@ -108,6 +114,7 @@ export default function ProfileInfoSection() {
             href={'/'}
             linkText={'Düzenle'}
             border
+            paddingBottom
           />
           <div className={styles.profileInfoAbilities}>
             {interests.map((interest) => (

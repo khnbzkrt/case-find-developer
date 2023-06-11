@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
-import SocialMediaNavbar from '@/components/molecules/navbar/SocialMediaNavbar';
-import SocialMediaLogo from '@/components/atoms/logo/SocialMediaLogo';
+import { SocialMediaNavbar, SocialMediaLogo } from '@/components';
 
 import styles from './styles.module.css';
 

@@ -1,4 +1,4 @@
-import NavbarProfile from '../navbar-profile/NavbarProfile';
+import { NavbarProfile } from '@/components';
 
 import styles from './styles.module.css';
 

@@ -1,6 +1,4 @@
-import Header from '@/components/organisms/header/Header';
-import IntroSlogan from '@/components/molecules/intro-slogan/IntroSlogan';
-import SearchInput from '@/components/molecules/search-input/SearchInput';
+import { Header, IntroSlogan, SearchInput } from '@/components';
 
 import styles from './styles.module.css';
 

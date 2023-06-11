@@ -1,8 +1,10 @@
+'use client';
+
 import { useState } from 'react';
 
 import styles from './styles.module.css';
 
-export const Dropdown = ({ menuItems, defaultValue, label }) => {
+export default function Dropdown({ menuItems, defaultValue, label, top }) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(defaultValue.item);
 
@@ -17,7 +19,7 @@ export const Dropdown = ({ menuItems, defaultValue, label }) => {
 
   return (
     <div className={styles.dropdown}>
-      <div className={styles.dropdown__toggle} onClick={toggleDropdown}>
+      <div className={styles.dropdownToggle} onClick={toggleDropdown}>
         {label ? (
           <span>{label || selectedOption}</span>
         ) : (
@@ -26,7 +28,7 @@ export const Dropdown = ({ menuItems, defaultValue, label }) => {
         <i className={`${styles.arrow} ${isOpen ? styles.up : styles.down}`} />
       </div>
       {isOpen && (
-        <ul className={styles.dropdown__menu}>
+        <ul className={top ? styles.dropdownMenuTop : styles.dropdownMenu}>
           {menuItems?.map((menuItem) => (
             <li
               key={menuItem.id}
@@ -39,4 +41,4 @@ export const Dropdown = ({ menuItems, defaultValue, label }) => {
       )}
     </div>
   );
-};
+}

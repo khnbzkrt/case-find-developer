@@ -4,9 +4,9 @@ import {
   JobPost,
   CompanySection,
   Intro,
+  SuggestionSection,
+  Footer,
 } from '@/components';
-import SuggestionSection from '../organisms/suggestion-section/SuggestionSection';
-import Footer from '../organisms/footer/Footer';
 
 export default function HomePageTemplate() {
   return (

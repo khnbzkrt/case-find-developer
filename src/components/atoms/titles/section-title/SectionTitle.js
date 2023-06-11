@@ -9,6 +9,7 @@ export default function SectionTitle({
   color = 'var(--color)',
   border,
   fontSize,
+  paddingBottom,
 }) {
   return (
     <div
@@ -22,6 +23,7 @@ export default function SectionTitle({
         style={{
           color: color,
           fontSize: fontSize ? `${fontSize}px` : '24px',
+          paddingBottom: '16px',
         }}
       >
         {title}
