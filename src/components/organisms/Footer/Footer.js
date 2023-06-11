@@ -56,7 +56,7 @@ const options = [
   { id: 'ro', item: 'Rumence' },
 ];
 
-export default function Footer({ isDefault = false }) {
+function Footer({ isDefault = false }) {
   return (
     <footer className={`container ${styles.footerContainer}`}>
       <div className={styles.footerLinksContainer}>
@@ -88,3 +88,5 @@ export default function Footer({ isDefault = false }) {
     </footer>
   );
 }
+
+export default Footer;
