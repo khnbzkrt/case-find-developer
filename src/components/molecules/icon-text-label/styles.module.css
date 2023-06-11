@@ -1,0 +1,13 @@
+.iconTextLabelContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconTextLabelIconTextContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.iconTextLabelCrossIcon {
+  cursor: pointer;
+}

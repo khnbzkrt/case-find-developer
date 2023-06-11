@@ -20,7 +20,7 @@ export default function ProfileInfoSection() {
       <div className={styles.profileInfoSectionContainer}>
         <ProfileSidebar />
         <article>
-          <SectionTitle title={'Profil'} />
+          <SectionTitle title={'Profil'} fontSize={32} />
           <SectionTitle
             title={'Profesyonel Bakış'}
             href={'/'}

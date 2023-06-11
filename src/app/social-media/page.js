@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 export default function SocialMediaList() {
   const dispatch = useDispatch();
   const users = useSelector(selectAllUsers);
-  console.log(users);
+
   useEffect(() => {
     dispatch(getAllUsers());
   }, []);

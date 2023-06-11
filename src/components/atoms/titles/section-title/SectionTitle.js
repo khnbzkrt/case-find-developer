@@ -7,6 +7,7 @@ export default function SectionTitle({
   linkText,
   color = 'var(--color)',
   border,
+  fontSize,
 }) {
   return (
     <div
@@ -19,6 +20,7 @@ export default function SectionTitle({
         className={styles.sectionTitle}
         style={{
           color: color,
+          fontSize: fontSize ? `${fontSize}px` : '24px',
         }}
       >
         {title}

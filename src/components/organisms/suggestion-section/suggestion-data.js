@@ -73,17 +73,17 @@ export const popularTitles = [
     href: '/',
   },
   {
-    id: 3,
+    id: 4,
     text: 'Kullanılabilirlik Uzmanı',
     href: '/',
   },
   {
-    id: 4,
+    id: 5,
     text: 'IT Sorumlusu',
     href: '/',
   },
   {
-    id: 5,
+    id: 6,
     text: 'Mid Level .net Developer',
     href: '/',
   },

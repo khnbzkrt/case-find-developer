@@ -1,0 +1,18 @@
+.objectListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0px;
+  border-bottom: 1px solid var(--border-color-gray);
+}
+
+.objectListTitle {
+  font-size: 18px;
+  color: var(--color-blue);
+}
+
+.objectListAddButton {
+  font-size: 14px;
+  color: var(--color-blue);
+  text-decoration: underline;
+}

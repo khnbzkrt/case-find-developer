@@ -5,7 +5,7 @@ const selectUserId = (_, props) => props.userId;
 
 export const selectUserById = createSelector(
   [selectUsers, selectUserId],
-  (users, userId) => users.find((user) => user.id == userId)
+  (users, userId) => users?.find((user) => user.id == userId)
 );
 
 export const selectAllUsers = createSelector([selectUsers], (users) => users);

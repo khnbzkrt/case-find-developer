@@ -1,8 +1,7 @@
 'use client';
 import '@/styles/reset.css';
+import '@/styles/fonts.css';
 import '@/styles/globals.css';
-
-import { markpro } from '../../public/fonts';
 
 export const metadata = {
   title: 'Find Developer',
@@ -16,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={markpro.className}>
+    <html lang="en" className="rootLayout">
       <body>{children}</body>
     </html>
   );

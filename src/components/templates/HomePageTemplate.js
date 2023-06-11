@@ -1,4 +1,3 @@
-'use client';
 import {
   ServiceSection,
   PopularSearch,
@@ -8,11 +7,8 @@ import {
 } from '@/components';
 import SuggestionSection from '../organisms/suggestion-section/SuggestionSection';
 import Footer from '../organisms/footer/Footer';
-import { useSelector } from 'react-redux';
 
 export default function HomePageTemplate() {
-  const state = useSelector((state) => state);
-  console.log(state);
   return (
     <main>
       <Intro />

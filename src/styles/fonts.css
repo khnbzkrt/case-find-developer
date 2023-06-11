@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Heavy.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-HeavyItalic.otf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Black.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-BlackItalic.otf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-BoldItalic.otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Italic.otf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-MediumItalic.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Book.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-BookItalic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-LightItalic.otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-ExtraLight.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-ExtraLightItalic.otf');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-Thin.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MarkPro';
+  src: url('../fonts/markpro/MarkPro-ThinItalic.otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/nunito/Nunito-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
